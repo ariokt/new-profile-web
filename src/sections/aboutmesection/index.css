@@ -1,0 +1,66 @@
+.about-me div.card {
+    border-radius: 20px;
+    background: #26243b;
+}
+
+h3.card-yellow {
+    background-color: #f3ec78;
+    background: linear-gradient(120deg, #ff5acd, #fbda61);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+h3.card-blue {
+    background: linear-gradient(45deg, #a6ffcb, #1fa2ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+h3.card-purple {
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, #ec77ab, #e100ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+h3.card-green {
+    background: linear-gradient(120deg, #9be15d, #00e3ae);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+div.shadow-pink:hover {
+    box-shadow: 0 10px 40px rgba(239, 101, 159, 0.7);
+}
+
+div.shadow-blue:hover {
+    box-shadow: 0 10px 40px rgba(101, 188, 239, 0.7);
+}
+
+div.shadow-purple:hover {
+    box-shadow: 0 10px 40px rgba(211, 101, 239, 0.7);
+}
+
+div.shadow-green:hover {
+    box-shadow: 0 10px 40px rgba(101, 239, 159, 0.7);
+}

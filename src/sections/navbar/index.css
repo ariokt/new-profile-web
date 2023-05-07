@@ -1,0 +1,25 @@
+.navbar {
+    z-index: 99;
+}
+
+.active {
+    background-color: #141414;
+    color: white !important;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    opacity: 95%;
+}
+
+.inactive {
+    background-color: transparent;
+    color: #141414;
+}
+
+.navbar__link {
+    font-weight: 700 !important;
+}
+
+.navbar__logo {
+    font-size: 18px;
+}
