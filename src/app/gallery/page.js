@@ -13,6 +13,8 @@ import img5 from "../../assets/gallery/bd2.jpeg";
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
+import Navbar from '../../sections/navbar';
+import Footer from '../../sections/footer';
 
 export default function Gallery() {
   const images = [{src:img1, alt:"Annual Ray White & Loan Market"}, 
@@ -23,6 +25,7 @@ export default function Gallery() {
 
   return (
     <main className="bg-blue-200 h-fit" >
+      <Navbar />
       <div className='py-16 px-8 md:py-20 md:px-20 lg:py-28 lg:px-28 xl:py-32 xl:px-32 h-fit'>
         <LightGallery
             elementClassNames="custom-wrapper-class grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8"
@@ -33,6 +36,7 @@ export default function Gallery() {
           ))}
         </LightGallery>
       </div>
+      <Footer />
     </main>
   )
 }

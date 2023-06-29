@@ -9,7 +9,7 @@ const Footer = () => {
     const sosmed = [{icon: faLinkedin, link:"https://www.linkedin.com/in/ario-waskita-318b3a151/"}, {icon: faSquareFacebook, link:"https://www.facebook.com/ario.waskita.9/"},
                     {icon: faSquareInstagram, link:"https://www.instagram.com/ariowta/"}, {icon: faEnvelope, link:"mailto:ariowta@gmail.com"}];
     return (
-        <footer className="py-7">
+        <footer className="py-7 bg-black">
             <div className="px-6 md:px-8 flex flex-col items-center gap-4 md:gap-8">
                 <div className="footer-headline">
                     <h3 align="center" className="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl mb-2">Let's work together!</h3>
