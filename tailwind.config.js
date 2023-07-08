@@ -17,10 +17,28 @@ module.exports = {
         halo: {
           '0%, 100%': { transform: 'rotate(-16deg)' },
           '50%': { transform: 'rotate(16deg)' },
+        },
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden"
+          },
+          "100%": {
+            width: "65%"
+          }  
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent"
+          },
+          "100%": {
+            borderColor: "white"
+          }  
         }
       },
       animation: {
-        halo: 'halo 1s ease-in-out infinite'
+        halo: 'halo 1s ease-in-out infinite',
+        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
       }
     },
   },
