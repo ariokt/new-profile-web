@@ -1,4 +1,3 @@
-"use client";
 import Navbar from "@/sections/navbar";
 import data from "../../../../dataProjects";
 import Image from 'next/image';
