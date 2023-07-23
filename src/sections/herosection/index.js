@@ -27,9 +27,9 @@ const HeroSection = () => {
                     <h2 className="text-sm sm:text-lg">UI/UX Design Enthusiast</h2>
                 </div>
             </div>
-            <div class="w-fit flex gap-2">
+            <div className="w-fit flex gap-2">
                 <h3 className="my-location text-lg md:text-4xl mb-3">Work From</h3>
-                <h3 class="animate-typing overflow-hidden whitespace-nowrap border-r-4 my-location text-lg md:text-4xl mb-3">Jakarta, Indonesia.</h3>
+                <h3 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 my-location text-lg md:text-4xl mb-3">Jakarta, Indonesia.</h3>
             </div>
             <div className="h-full">
                 <div className="line h-full"></div>
