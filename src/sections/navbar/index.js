@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link className="navbar__logo navbar__link p-2" href="/">Ario Waskita</Link>
             <div className="flex">
                 <a className="navbar__link p-2" href="https://drive.google.com/file/d/1ZSpDDLkirP9VY-Cwsid_KY-7Wg5GY-kq/view?usp=share_link" target='_blank'>Resume</a>
-                <Link className="navbar__link p-2" href="./gallery">Gallery</Link>
+                <Link className="navbar__link p-2" href="/gallery">Gallery</Link>
             </div>
             <div className='hidden md:flex'>
                 <WhatsappMe />
