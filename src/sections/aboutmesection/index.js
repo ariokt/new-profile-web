@@ -6,6 +6,7 @@ import "./index.css";
 
 const AboutMeSection = () => {
     return (
+        // about me section
         <section className="about-me flex flex-col items-center bg-black h-fit py-7">
             <div>
                 <div className="flex flex-col items-center gap-4 mb-8">
@@ -49,6 +50,7 @@ const AboutMeSection = () => {
                 <div className="line h-full"></div>
             </div>
         </section>
+        // about me section END
     )
 }
 
